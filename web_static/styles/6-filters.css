@@ -1,0 +1,43 @@
+.filters {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.locations, .amenities {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
+
+.popover ul {
+    padding-left: 20px;
+}
+
+.popover h2 {
+    font-size: 16px;
+}

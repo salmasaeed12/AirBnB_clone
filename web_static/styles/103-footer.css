@@ -1,0 +1,17 @@
+footer {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Improved accessibility by increasing contrast */
+footer p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 10px 0;
+    }
+}

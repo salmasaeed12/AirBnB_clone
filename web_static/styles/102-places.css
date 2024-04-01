@@ -1,0 +1,50 @@
+.places {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.place {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.place h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+}
+
+.place .information {
+    margin-top: 20px;
+}
+
+.place .amenities, .place .reviews {
+    margin-top: 20px;
+}
+
+.place .amenities ul, .place .reviews ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.place .amenities ul li, .place .reviews ul li {
+    margin-bottom: 10px;
+}
+
+.place .amenities ul li:before {
+    content: "\2022"; /* Bullet point */
+    color: #FF5A5F; /* Bullet point color */
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .place {
+        width: calc(50% - 20px);
+    }
+}
